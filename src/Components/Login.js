@@ -1,20 +1,44 @@
+import { auth } from "../firebase";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 function Login() {
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [passWord, setPassWord] = useState("");
   const signIn = (e) => {
     e.preventDefault();
+    auth
+      .signInWithEmailAndPassword(email, passWord)
+      .then((auth) => {
+        if (auth) {
+          console.log(auth);
+          history.push("/");
+        }
+      })
+      .catch((err) => {
+        alert(err.message);
+      });
   };
+
   const register = (e) => {
     e.preventDefault();
+    auth
+      .createUserWithEmailAndPassword(email, passWord)
+      .then((auth) => {
+        console.log(auth);
+        if (auth) {
+          history.push("/");
+        }
+      })
+      .catch((err) => alert(err.message));
   };
-  //
+
   return (
     <div classname="login">
       <Link to="/">
         <img
+          alt="login__logo"
           className="login__logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
         ></img>

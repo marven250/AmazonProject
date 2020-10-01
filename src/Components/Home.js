@@ -18,17 +18,42 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
-          <Product />
+          <Product
+            title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
+            price={999.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          />
         </div>
         <div className="home__row">
           {" "}
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
+            price={799.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          />
+          <Product
+            title=" Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
+            price={699.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          />
+          <Product
+            title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
+            price={599.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          />
         </div>
         <div className="home__row">
           {" "}
-          <Product />
+          <Product
+            title="This for the broke boys "
+            price={299.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          />
         </div>
       </div>
     </div>
