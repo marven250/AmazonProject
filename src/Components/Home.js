@@ -13,12 +13,14 @@ function Home() {
 
         <div className="home__row">
           <Product
+            id="12345"
             title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
             price={999.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
           <Product
+            id="12345"
             title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
             price={999.99}
             rating={5}
@@ -28,18 +30,21 @@ function Home() {
         <div className="home__row">
           {" "}
           <Product
+            id="12345"
             title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
             price={799.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
           <Product
+            id="12345"
             title=" Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
             price={699.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
           <Product
+            id="12345"
             title="Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven Big Bank Marven "
             price={599.99}
             rating={5}
@@ -49,6 +54,7 @@ function Home() {
         <div className="home__row">
           {" "}
           <Product
+            id="12345"
             title="This for the broke boys "
             price={299.99}
             rating={5}
