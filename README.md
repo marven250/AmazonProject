@@ -1,9 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## PROJECT LINK =>
 
-START BACKEND
-firebase emulators:start
+https://clone-17017.web.app/
+
+## Available Scripts
 
 In the project directory, you can run:
 
